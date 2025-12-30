@@ -1,0 +1,20 @@
+# --- .gitignore ---
+
+# 1. Credenciais e Variáveis (CRÍTICO)
+.env
+credentials.json
+token.json
+client_secret.json
+
+# 2. Pasta do Navegador (CRÍTICO - Não suba isso, é pesado e tem seus cookies!)
+perfil_chrome/
+
+# 3. Lixo do Python e VS Code
+__pycache__/
+venv/
+.vscode/
+
+# 4. Arquivos gerados pelo robô
+db.json
+*.log
+*.png
