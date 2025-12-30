@@ -1,12 +1,12 @@
 # --- .gitignore ---
 
-# 1. Credenciais e Variáveis (CRÍTICO)
+# 1. Credenciais e Variáveis
 .env
 credentials.json
 token.json
 client_secret.json
 
-# 2. Pasta do Navegador (CRÍTICO - Não suba isso, é pesado e tem seus cookies!)
+# 2. Pasta do Navegador
 perfil_chrome/
 
 # 3. Lixo do Python e VS Code
